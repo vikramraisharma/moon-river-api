@@ -65,5 +65,8 @@ DEPENDENCIES
   sinatra-activerecord
   sinatra-cross_origin
 
+RUBY VERSION
+   ruby 2.7.0p0
+
 BUNDLED WITH
    2.1.2
