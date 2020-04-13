@@ -10,3 +10,7 @@ CREATE TABLE posts(
     author VARCHAR(100),
     release_date DATE
 );
+
+INSERT INTO posts (name, body, author) VALUES ("My Way", "I like this song", "Frank Sinatra");
+
+INSERT INTO posts (name) VALUES ("My Way");
