@@ -1,1 +1,1 @@
-web: rerun -- rackup --port:7777 config.ru
+web: bundle exec rackup config.ru -p $PORT -s thin
