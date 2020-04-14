@@ -7,7 +7,7 @@ class ApplicationController < Sinatra::Base
 
   ActiveRecord::Base.establish_connection(
       :adapter => 'postgresql',
-      :database => 'moon_river'
+      :database => 'd8jobfvuo7cqjo'
     )
 
 
