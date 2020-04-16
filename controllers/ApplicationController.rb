@@ -7,7 +7,7 @@ class ApplicationController < Sinatra::Base
 
   ActiveRecord::Base.establish_connection(
       :adapter => 'postgresql',
-      :database => 'd8jobfvuo7cqjo'
+      :database => 'moon_river'
     )
 
 
@@ -31,7 +31,7 @@ class ApplicationController < Sinatra::Base
   end
 
   get "/" do
-      'hello world'
+      erb :index
   end
 
 
