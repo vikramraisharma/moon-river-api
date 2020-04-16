@@ -1,1 +1,1 @@
-web:bundle exec rackup config.ru -p $PORT -s thin
+web:bundle exec rerun -- rackup --port $PORT config.ru
